@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRIS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e1f1ff; /* Light blue background */
+      color: #333; /* Default text color */
+    }
+
+    h1 {
+      color: #3a6ea5; /* Dark blue for main header */
+      text-align: center;
+      margin: 30px 0 10px; /* Top: 30px, Bottom: 10px, Left & Right: 0 */
+    }
+
+    h2 {
+      color: #5f5f5f; /* Dark gray for subheader */
+      text-align: left;
+      margin: 0 0 30px 20px; /* Top: 0, Right: 0, Bottom: 30px, Left: 20px */
+      font-size: 18px; /* Smaller font size for subheader */
+      font-weight: normal; /* Unbolded subheader */
+      font-style: italic;
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .header-container img {
+      max-width: 150px;
+      max-height: 100px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #c0e2ff; /* Light blue table background */
+      color: #333; /* Default text color */
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #aaa;
+    }
+
+    th:first-child,
+    td:first-child {
+      /* Adjust the width of the "Field" column */
+      width: 50%;
+    }
+
+    th:last-child,
+    td:last-child {
+      /* Adjust the width of the "Value" column */
+      width: 50%;
+    }
+
+    th {
+      background-color: #3a6ea5; /* Dark blue for column titles */
+      color: #fff; /* White text for column titles */
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-container">
+    <h1>Extraction Data</h1>
+    <!-- Replace the URL or file path below with your image -->
+    <img src="lockheed_logo.png" alt="Lockheed Logo">
+  </div>
+  <h2>Data was extracted successfully with the following parameters</h2>
+  <table>
+    <tr>
+      <th>Field</th>
+      <th>Value</th>
+    </tr>
+    <tr>
+      <td>Execution Time</td>
+      <td>2 min</td>
+    </tr>
+    <tr>
+      <td>Success Rate</td>
+      <td>99%</td>
+    </tr>
+    <tr>
+      <td>Average Speed</td>
+      <td>1 ft/sec</td>
+    </tr>
+    <tr>
+      <td>Obstacles Detected</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Signal Detection</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>Distance Traveled</td>
+      <td>12 ft</td>
+    </tr>
+  </table>
+</body>
+</html>
